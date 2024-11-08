@@ -1,0 +1,75 @@
+// src/styles/main.scss
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Rakkas&display=swap');
+
+
+body{
+    background-color: #D2B58D;
+}
+
+.logo{
+    width: 290px;
+    margin: 1rem 0 1.5rem 0;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
+.menu-title{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+.sub-title{
+
+}
+.menu-list{
+    list-style: none;
+    padding: 0;
+    li{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 1rem 0;
+        margin-bottom: 1rem;
+        border-bottom: 1px dashed #483b29b6;
+        .item-name, .price{
+            font-family: "Rajdhani", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 24px;
+        }
+        .discription{
+            font-family:'Cambria', serif;
+            font-style: italic;
+            margin-bottom: 0;
+        }
+    }
+    .extra{
+        width: 400px;
+        margin: 2rem auto;
+        padding-bottom: 1rem;
+        .sub-title{
+            font-family: "Rakkas", serif;
+            font-weight: 400;
+            font-size: 24px;    
+        }
+        li{
+            font-family: "Rajdhani", sans-serif;
+            font-weight: 500;
+            border-bottom: none;
+            margin-bottom: 0px;
+            padding: .25rem 0;
+        }
+    }
+}
+
+h1 .h1{
+ font-family: "Rakkas", serif;
+  font-weight: 400;
+  font-style: normal;
+}
