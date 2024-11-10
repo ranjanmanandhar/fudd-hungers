@@ -1,29 +1,11 @@
-.home {
-    height: 100vh; /* Full viewport height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; /* Stack elements vertically */
-  }
-  
-  .logo img {
-    max-width: 200px; /* Limit the logo size */
-  }
-  
-  .instagram-icon {
-    margin-right: 15px;
-    color: #E1306C;
-  }
-  
-  .menu-link {
-    display: inline-flex;
-    align-items: center;
-    font-weight: bold;
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .menu-link:hover {
-    text-decoration: underline;
-  }
-  
+/* Add this to your CSS file */
+.menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.menu-icon:hover {
+  transform: scale(1.1);  /* Scale the icon when hovered */
+}
