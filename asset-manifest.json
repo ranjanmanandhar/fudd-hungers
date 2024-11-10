@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/fudd-hungers/static/css/main.f3a886e8.css",
-    "main.js": "/fudd-hungers/static/js/main.b3739130.js",
+    "main.css": "/fudd-hungers/static/css/main.edfec16a.css",
+    "main.js": "/fudd-hungers/static/js/main.e91d07e8.js",
     "static/js/453.95034899.chunk.js": "/fudd-hungers/static/js/453.95034899.chunk.js",
     "static/media/logo-fudd.png": "/fudd-hungers/static/media/logo-fudd.e55a068309fd6bccfaeb.png",
     "index.html": "/fudd-hungers/index.html",
-    "main.f3a886e8.css.map": "/fudd-hungers/static/css/main.f3a886e8.css.map",
-    "main.b3739130.js.map": "/fudd-hungers/static/js/main.b3739130.js.map",
+    "main.edfec16a.css.map": "/fudd-hungers/static/css/main.edfec16a.css.map",
+    "main.e91d07e8.js.map": "/fudd-hungers/static/js/main.e91d07e8.js.map",
     "453.95034899.chunk.js.map": "/fudd-hungers/static/js/453.95034899.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3a886e8.css",
-    "static/js/main.b3739130.js"
+    "static/css/main.edfec16a.css",
+    "static/js/main.e91d07e8.js"
   ]
 }
