@@ -1,32 +1,7 @@
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import "./App.css";
+import Logo from "./assets/photos/logo-fudd.png";
 
 const App = () => {
   return (
@@ -34,7 +9,7 @@ const App = () => {
       <Container className="d-flex justify-content-center">
         <Row className="mb-4">
           <div className="logo">
-            <img src="/Images/logo-fudd.png" />
+            <img src={Logo} />
           </div>
         </Row>
       </Container>
@@ -137,12 +112,9 @@ const App = () => {
             </div>
           </ul>
         </section>
-
-        {/* *********************** lunch ********************* */}
-
         <section className="mx-3">
           <div className="menu-title">LUNCH FROM 10:30AM</div>
-          <div> BURGERS AND SANDWICHES</div>
+          <div className="rakkas"> BURGERS AND SANDWICHES</div>
           <ul className="menu-list">
             <li>
               <div className="item">
@@ -205,11 +177,10 @@ const App = () => {
             </li>
             <li>
               <div className="item">
-                <div className="item-name">REUBEN SANDWITCH
-                </div>
+                <div className="item-name">REUBEN SANDWITCH</div>
                 <div className="discription">
-                Sliced smoked beef, dijon mustard, pickled cabbage, swiss
-                cheese with house mayo
+                  Sliced smoked beef, dijon mustard, pickled cabbage, swiss
+                  cheese with house mayo
                 </div>
               </div>
               <div className="price">$18.00</div>
@@ -227,18 +198,15 @@ const App = () => {
             </div>
           </ul>
         </section>
-         {/* *********************** lunch ********************* */}
 
-
-          {/* *********************** MAINS ********************* */}
-          <section className="mx-3">
-          <div className="h1">MAINS</div>
+        <section className="mx-3">
+          <div className="h1 text-center rakkas">MAINS</div>
           <ul className="menu-list">
             <li>
               <div className="item">
                 <div className="item-name">CHICKEN SCHNITZEL</div>
                 <div className="discription">
-                Herb garlic chicken breast, chips, garden salad & gravy.
+                  Herb garlic chicken breast, chips, garden salad & gravy.
                 </div>
               </div>
               <div className="price">$22.00</div>
@@ -247,8 +215,8 @@ const App = () => {
               <div className="item">
                 <div className="item-name">FISH AND CHIPS</div>
                 <div className="discription">
-                Spiced battered fish, chips, garden salad, lemon &
-                home-made tartare sauce.
+                  Spiced battered fish, chips, garden salad, lemon & home-made
+                  tartare sauce.
                 </div>
               </div>
               <div className="price">$23.00</div>
@@ -257,20 +225,18 @@ const App = () => {
               <div className="item">
                 <div className="item-name">PRAWN & CHORIZO LINGUINE (DFO)</div>
                 <div className="discription">
-                Garlic prawns, chorizo, cherry tomato, Spinach,
-                charred tomato tapenade, chilli with parmesan cheese
+                  Garlic prawns, chorizo, cherry tomato, Spinach, charred tomato
+                  tapenade, chilli with parmesan cheese
                 </div>
               </div>
               <div className="price">$23.00</div>
             </li>
             <li>
               <div className="item">
-                <div className="item-name">SPINACH AND RICOTTA RAVIOLI (V)
-                </div>
+                <div className="item-name">SPINACH AND RICOTTA RAVIOLI (V)</div>
                 <div className="discription">
-                Homemade creamy pesto, semi dried tomatoes with
-parmesan cheese
-
+                  Homemade creamy pesto, semi dried tomatoes with parmesan
+                  cheese
                 </div>
               </div>
               <div className="price">$20.00</div>
@@ -279,37 +245,38 @@ parmesan cheese
               <div className="item">
                 <div className="item-name">DEVIL WINGS 10Pcs (DFO)</div>
                 <div className="discription">
-                Served with chips marinated hot sauce and garlic aioli
+                  Served with chips marinated hot sauce and garlic aioli
                 </div>
               </div>
               <div className="price">$16.00</div>
             </li>
             <li>
               <div className="item">
-                <div className="item-name">FUDDHUNGERS BBQPORK RIBS (GF, DF)</div>
+                <div className="item-name">
+                  FUDDHUNGERS BBQPORK RIBS (GF, DF)
+                </div>
                 <div className="discription">
-                Full racked Braised Pork ribs served with chip and
-                salad
+                  Full racked Braised Pork ribs served with chip and salad
                 </div>
               </div>
               <div className="price">$38.00</div>
             </li>
             <li>
               <div className="item">
-                <div className="item-name">FUDDHUNGERS RIBS& WINGS COMBO (GF, DF)
+                <div className="item-name">
+                  FUDDHUNGERS RIBS& WINGS COMBO (GF, DF)
                 </div>
                 <div className="discription">
-                Half rack BBQ pork ribs and 5 wings served with chips and salad
-
+                  Half rack BBQ pork ribs and 5 wings served with chips and
+                  salad
                 </div>
               </div>
               <div className="price">$35.00</div>
             </li>
             <div className="extra">
               <div className="d-flex justify-content-between">
-
-              <div className="sub-title text-center">Kiddie Bites</div>
-              <div>$10.00</div>
+                <div className="sub-title text-center">Kiddie Bites</div>
+                <div>$10.00</div>
               </div>
               <li>
                 <div>ADD FRIES</div>
@@ -320,8 +287,147 @@ parmesan cheese
             </div>
           </ul>
         </section>
-          {/* *********************** MAINS ********************* */}
+
+        <section>
+          <div className="h1 text-center rakkas">DRINKS MENU</div>
+          <div className="rakkas pt-5"> COFFEE</div>
+          <ul className="menu-list">
+            <li>
+              <div className="item">
+                <div className="item-name">WHITE</div>
+              </div>
+              <div className="price">S $4.50</div>
+              <div className="price"> L $5.50</div>
+            </li>
+            <li>
+              <div className="item">
+                <div className="item-name">BLACK</div>
+              </div>
+              <div className="price">S $4.50</div>
+              <div className="price"> L $5.50</div>
+            </li>
+            <div className="rakkas pt-5">ICED</div>
+            <li>
+              <div className="item">
+                <div className="item-name">ICED LATTE </div>
+              </div>
+              <div className="price">$7.00</div>
+            </li>
+            <li>
+              <div className="item">
+                <div className="item-name">ICED COFFEE </div>
+              </div>
+              <div className="price">$9.00</div>
+            </li>
+
+            <li>
+              <div className="item">
+                <div className="item-name">ICED LONG BLACK </div>
+              </div>
+              <div className="price">$6.00</div>
+            </li>
+            <li>
+              <div className="item">
+                <div className="item-name">ICED MOCHA </div>
+              </div>
+              <div className="price">$9.00</div>
+            </li>
+            <li>
+              <div className="item">
+                <div className="item-name">ICED CHOCOLATE</div>
+              </div>
+              <div className="price">$9.00</div>
+            </li>
+
+            <div className="rakkas pt-5">NON-COFFEE</div>
+
+            <li>
+              <div className="item">
+                <div className="item-name"> HOT CHOCOLATE </div>
+              </div>
+              <div className="price">(s) $4.50</div>
+              <div className="price"> (l) $5.50</div>
+            </li>
+            <li>
+              <div className="item">
+                <div className="item-name">CHAI LATTE </div>
+              </div>
+              <div className="price">(s) $4.50</div>
+              <div className="price"> (l) $5.50</div>
+            </li>
+            <li>
+              <div className="item">
+                <div className="item-name">MATCHA LATTE</div>
+              </div>
+              <div className="price">$6.00</div>
+              <div className="price"> (iced) + $1.00</div>
+            </li>
+            <li>
+              <div className="item">
+                <div className="item-name">BABYCHINO</div>
+              </div>
+              <div className="price">$2.50</div>
+            </li>
+          </ul>
+
+          <div className="rakkas pt-5"> TEAS</div>
+          <ul className="menu-list">
+            <li>
+              <div className="item">
+                <div className="item-name">
+                  {" "}
+                  English Breakfast Tea | Earl Grey | Peppermint |<br />{" "}
+                  Lemongrass Ginger | Green Tea
+                </div>
+              </div>
+              <div className="price">$4.00</div>
+            </li>
+          </ul>
+
+          <div className="rakkas pt-5">HOUSE SPECIALS</div>
+          <ul className="menu-list">
+            <li>
+              <div className="item">
+                <div className="item-name">
+                  {" "}
+                  ICED MILO | PEACH ICED TEA | LEMONADE |
+                </div>
+              </div>
+              <div className="price">$9.00</div>
+            </li>
+            <div className="extra">
+              <div className="d-flex justify-content-between">
+                <div>EXTRA SHOT/DECAF/ SYRUPS</div>
+                <div>$0.50</div>
+              </div>
+              <div className="d-flex justify-content-between">
+                <div>ALTERNATIVE MILKS</div>
+                <div>$0.80</div>
+              </div>
+            </div>
+          </ul>
+        </section>
       </Container>
+
+      <Container>
+        <footer className="text-center py-2">
+          <small> @ Fudd Hungers | 2024</small>
+        </footer>
+      </Container>
+
+      {/* ------------------------------------------------------- WIP page----------------------------- */}
+
+      {/* <Container>
+        <div className="wip-page relative">
+          <div className="brand">
+            <img src="/Images/logo-fudd-org.png" />
+          </div>
+          <div className="msg">
+            <div>--</div>
+            <div className="small">Site Under Construction</div>
+          </div>
+        </div>
+      </Container> */}
     </>
   );
 };

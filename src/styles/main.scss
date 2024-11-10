@@ -7,7 +7,9 @@
 body{
     background-color: #D2B58D;
 }
-
+section{
+    padding: 2rem 0;
+}
 .logo{
     width: 290px;
     margin: 1rem 0 1.5rem 0;
@@ -50,7 +52,7 @@ body{
         }
     }
     .extra{
-        width: 400px;
+        width: 380px;
         margin: 2rem auto;
         padding-bottom: 1rem;
         .sub-title{
@@ -68,8 +70,35 @@ body{
     }
 }
 
-h1 .h1{
- font-family: "Rakkas", serif;
-  font-weight: 400;
-  font-style: normal;
+
+.rakkas{
+    font-family: "Rakkas", serif !important;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+.wip-page{
+    height: 100vh;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.brand{
+    width: 50%;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
+.msg{
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    bottom: 24px;
+    right: 24PX;
+    img{
+        height: 60px;
+    }
 }
