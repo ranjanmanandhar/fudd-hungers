@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/fudd-hungers/static/css/main.0ebedea7.css",
-    "main.js": "/fudd-hungers/static/js/main.d259e175.js",
+    "main.js": "/fudd-hungers/static/js/main.674f772f.js",
     "static/js/453.95034899.chunk.js": "/fudd-hungers/static/js/453.95034899.chunk.js",
     "static/media/logo-fudd.png": "/fudd-hungers/static/media/logo-fudd.e55a068309fd6bccfaeb.png",
     "index.html": "/fudd-hungers/index.html",
     "main.0ebedea7.css.map": "/fudd-hungers/static/css/main.0ebedea7.css.map",
-    "main.d259e175.js.map": "/fudd-hungers/static/js/main.d259e175.js.map",
+    "main.674f772f.js.map": "/fudd-hungers/static/js/main.674f772f.js.map",
     "453.95034899.chunk.js.map": "/fudd-hungers/static/js/453.95034899.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ebedea7.css",
-    "static/js/main.d259e175.js"
+    "static/js/main.674f772f.js"
   ]
 }
